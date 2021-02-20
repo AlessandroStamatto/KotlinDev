@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.fragmentos.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/tela1_para_tela2"
+            app:destination="@id/tela2" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela2"
+        android:name="com.example.fragmentos.Tela2"
+        android:label="fragment_tela2"
+        tools:layout="@layout/fragment_tela2" >
+        <action
+            android:id="@+id/tela2_para_tela3"
+            app:destination="@id/tela3" />
+    </fragment>
+    <fragment
+        android:id="@+id/tela3"
+        android:name="com.example.fragmentos.Tela3"
+        android:label="fragment_tela3"
+        tools:layout="@layout/fragment_tela3" >
+        <action
+            android:id="@+id/tela3_para_tela1"
+            app:destination="@id/startFragment" />
+    </fragment>
+</navigation>
