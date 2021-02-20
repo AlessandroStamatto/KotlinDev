@@ -2,7 +2,10 @@
         def nav_version = "2.3.3"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
 
-
+//Arquivo build.graddle(app), dentro de android{}, no final
+    buildFeatures {
+        viewBinding true
+    }
 
 //Arquivo build.graddle(:app),dentro de Dependencies {}
     def fragment_version = "1.2.5"
