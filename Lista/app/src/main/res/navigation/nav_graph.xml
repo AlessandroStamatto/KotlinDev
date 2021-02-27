@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/telaLista">
+    <fragment
+        android:id="@+id/telaLista"
+        android:name="com.example.lista.TelaLista"
+        android:label="fragment_tela_lista"
+        tools:layout="@layout/fragment_tela_lista" >
+        <action
+            android:id="@+id/lista_para_detalhes"
+            app:destination="@id/telaDetalhes" />
+    </fragment>
+    <fragment
+        android:id="@+id/telaDetalhes"
+        android:name="com.example.lista.TelaDetalhes"
+        android:label="fragment_tela_detalhes"
+        tools:layout="@layout/fragment_tela_detalhes" />
+</navigation>

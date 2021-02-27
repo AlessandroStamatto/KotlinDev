@@ -1,0 +1,10 @@
+com/example/fragmentos/databinding/ActivityMainBinding.java
+ com.example.fragmentos.databinding.ActivityMainBinding
+com/example/fragmentos/databinding/FragmentStartBinding.java
+ com.example.fragmentos.databinding.FragmentStartBinding
+com/example/fragmentos/databinding/FragmentTela2Binding.java
+ com.example.fragmentos.databinding.FragmentTela2Binding
+com/example/fragmentos/databinding/FragmentTela3Binding.java
+ com.example.fragmentos.databinding.FragmentTela3Binding
+com/example/fragmentos/BuildConfig.java
+ com.example.fragmentos.BuildConfig
