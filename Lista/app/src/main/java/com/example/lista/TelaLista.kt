@@ -12,8 +12,23 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.room.Room
 
 class TelaLista : Fragment() {
+
+    lateinit var db: AppDatabase
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+
+        //pegar banco de dados
+        db = Room.databaseBuilder(
+            context, //acesso ao "aplicativo" (Activity Principal)
+            AppDatabase::class.java, //use esse esquema de banco de dados
+            "listadb") //o banco de dados se chama assim
+            .allowMainThreadQueries() //permita eu engasgar a tela
+            .build() //vai!
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -32,11 +47,16 @@ class TelaLista : Fragment() {
                 DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
         )
 
-        val adaptador = ListaAdapter(Afazer.obterAfazeres())
+        val adaptador = ListaAdapter(db.afazerDao())
         lista.adapter = adaptador
 
         val novoAfazer: TextView = view.findViewById(R.id.novoAfazer)
         val botaoAdicionar: Button = view.findViewById(R.id.adicionar)
+
+        botaoAdicionar.setOnClickListener {
+            adaptador.adicionar(novoAfazer.text.toString())
+            hideKeyboard()
+        }
     }
 
     fun hideKeyboard() {

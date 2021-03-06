@@ -1,2 +1,7 @@
 com/example/lista/BuildConfig.java
  com.example.lista.BuildConfig
+com/example/lista/AppDatabase_Impl.java
+ com.example.lista.AppDatabase_Impl
+ com.example.lista.AppDatabase_Impl$1
+com/example/lista/AfazerDao_Impl.java
+ com.example.lista.AfazerDao_Impl

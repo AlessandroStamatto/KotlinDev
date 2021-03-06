@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\astam\\Projetos\\lista\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
+            "outputFile": "C:\\Users\\astam\\Dropbox\\ACursoKotlin\\KotlinDev\\Lista\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\astam\\.gradle\\caches\\transforms-2\\files-2.1\\f04f77f5bf22057a29bdffafb3270f20\\appcompat-1.2.0\\res\\values-hr\\values-hr.xml",

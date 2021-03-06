@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\astam\\Projetos\\lista\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\astam\\Dropbox\\ACursoKotlin\\KotlinDev\\Lista\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\astam\\.gradle\\caches\\transforms-2\\files-2.1\\4d3cd0dc8b81bc0fb6c969bb05604f41\\transition-1.3.0\\res\\values\\values.xml",
@@ -18,23 +18,6 @@
                         "startOffsets": "55612,55652,56456,56638,56693,57825,57879,57931,57980,58041",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "55647,55694,56494,56688,56735,57874,57926,57975,58036,58086"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\astam\\Projetos\\lista\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "17,120",
-                        "endColumns": "42,69",
-                        "endOffsets": "55,185"
-                    },
-                    "to": {
-                        "startLines": "1055,1068",
-                        "startColumns": "4,4",
-                        "startOffsets": "61787,63242",
-                        "endColumns": "42,69",
-                        "endOffsets": "61825,63307"
                     }
                 },
                 {
@@ -114,23 +97,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\astam\\Projetos\\lista\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,57,105,153,201,247,336",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "330,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "405,494,495,496,507,508,511",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "19645,25727,25774,25821,26565,26610,26776",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "19682,25769,25816,25863,26605,26650,26813"
-                    }
-                },
-                {
                     "source": "C:\\Users\\astam\\.gradle\\caches\\transforms-2\\files-2.1\\107981693e5b49db83664a624d5c41d5\\navigation-common-2.3.3\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,13,19,25,28",
@@ -147,6 +113,25 @@
                         "endLines": "7099,7105,7111,7114,7182",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "459905,460149,460396,460529,464643"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\astam\\Dropbox\\ACursoKotlin\\KotlinDev\\Lista\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "828"
+                    },
+                    "to": {
+                        "startLines": "3676",
+                        "startColumns": "4",
+                        "startOffsets": "242327",
+                        "endLines": "3688",
+                        "endColumns": "12",
+                        "endOffsets": "243039"
                     }
                 },
                 {
@@ -205,6 +190,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\astam\\Dropbox\\ACursoKotlin\\KotlinDev\\Lista\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,120",
+                        "endColumns": "42,69",
+                        "endOffsets": "55,185"
+                    },
+                    "to": {
+                        "startLines": "1055,1068",
+                        "startColumns": "4,4",
+                        "startOffsets": "61787,63242",
+                        "endColumns": "42,69",
+                        "endOffsets": "61825,63307"
+                    }
+                },
+                {
                     "source": "C:\\Users\\astam\\.gradle\\caches\\transforms-2\\files-2.1\\d14f6470b547ce5ae2701b2d767fb9b7\\jetified-viewpager2-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -224,6 +226,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\astam\\Dropbox\\ACursoKotlin\\KotlinDev\\Lista\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,57,105,153,201,247,336",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "330,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "405,494,495,496,507,508,511",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "19645,25727,25774,25821,26565,26610,26776",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "19682,25769,25816,25863,26605,26650,26813"
+                    }
+                },
+                {
                     "source": "C:\\Users\\astam\\.gradle\\caches\\transforms-2\\files-2.1\\cd726bbf668fec222f35b93305537a1a\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -240,25 +259,6 @@
                         "endLines": "50,4870,6263,6352",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "2554,322101,409334,414545"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\astam\\Projetos\\lista\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "828"
-                    },
-                    "to": {
-                        "startLines": "3676",
-                        "startColumns": "4",
-                        "startOffsets": "242327",
-                        "endLines": "3688",
-                        "endColumns": "12",
-                        "endOffsets": "243039"
                     }
                 },
                 {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\astam\\Projetos\\lista\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
+            "outputFile": "C:\\Users\\astam\\Dropbox\\ACursoKotlin\\KotlinDev\\Lista\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\astam\\.gradle\\caches\\transforms-2\\files-2.1\\4fd79494f1059d767a47ec471258eb36\\material-1.3.0\\res\\values-mk\\values-mk.xml",

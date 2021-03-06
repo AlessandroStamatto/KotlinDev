@@ -9,8 +9,14 @@ import android.widget.TextView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 
-class ListaAdapter(val dados: MutableList<Afazer>)
+class ListaAdapter(val afazerDao : AfazerDao)
     : RecyclerView.Adapter<ListaAdapter.AFazerHolder>() {
+
+    val dados: MutableList<Afazer>
+    init {
+        //completar! não tá certo:
+       dados = mutableListOf()
+    }
 
     class AFazerHolder(v: View, val dados: MutableList<Afazer>)
         : RecyclerView.ViewHolder(v) {
@@ -45,16 +51,32 @@ class ListaAdapter(val dados: MutableList<Afazer>)
     override fun onBindViewHolder(holder: AFazerHolder, position: Int) {
         holder.titulo.text = dados[position].titulo
         holder.descricao.text = dados[position].descricao
+
+        holder.apagar.setOnClickListener {
+            apagar(position)
+        }
     }
 
     override fun getItemCount() = dados.size
 
     fun apagar(position: Int) {
+        val afazer = dados[position]
 
+        //apagar do banco de dados
+        //apagar do vetor
+
+        notifyItemRemoved(position)
+        notifyItemRangeChanged(position, itemCount - position)
     }
 
     fun adicionar(titulo: String) {
+        val afazer = Afazer(titulo, "Descrição...")
 
+        //adicionar ao banco de dados
+        //apagar do banco de dados
+
+        notifyItemInserted(0)
+        notifyItemRangeChanged(0, itemCount)
     }
 
 }
