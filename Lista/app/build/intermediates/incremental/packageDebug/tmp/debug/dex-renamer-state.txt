@@ -1,4 +1,4 @@
-#Sat Mar 06 13:33:37 BRT 2021
+#Sat Mar 06 13:52:32 BRT 2021
 base.0=C\:\\Users\\astam\\Dropbox\\ACursoKotlin\\KotlinDev\\Lista\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
